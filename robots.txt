@@ -1,0 +1,11 @@
+User-agent: *
+Allow: /
+
+User-agent: *
+Allow: /kontakt.html
+Allow: /sluzby/
+
+User-agent: *
+Disallow: /404.html
+
+Sitemap: https://www.vodotopo-mikulov.cz/sitemap.xml

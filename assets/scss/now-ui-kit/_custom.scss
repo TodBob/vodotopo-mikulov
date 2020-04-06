@@ -1,0 +1,323 @@
+.section-nucleo-icons {
+    .description {
+        color: #000 ;
+        font-weight: 400;
+   }
+}
+
+.hp-tel {
+    white-space: nowrap;
+}
+
+
+#mapa ,  #m {
+    img {
+        max-width: none !important;
+    }
+}
+
+.description {
+        color: #000 ;
+        font-weight: 400;
+   }
+
+
+.sluzby-tabs {
+    font-size: 2rem;
+} 
+
+
+
+
+
+
+/* Text for imgs */
+
+.bg-img-text {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: white;
+    background: #0000009e;
+    padding: 5px;
+    border-radius: 5px;
+
+    white-space: nowrap;
+    font-size: 15px;
+}
+
+
+.img-text-container {
+    position: relative;
+
+    h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+    color: white;
+    background: #0000009e;
+    padding: 5px;
+    border-radius: 5px;
+    
+    white-space: nowrap;
+    font-size: 15px;
+    }
+}
+
+
+
+
+.kasny-red-text {
+    width: auto !important;
+}
+
+
+
+.servis-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .buderus-logo {
+        width: 60%;
+        margin: auto;
+        display: flex;
+    }
+}
+
+
+.back-to-top {
+    width: 30%;
+    margin: auto;
+    font-size: 1rem;
+    white-space: nowrap;
+}
+
+
+/* 404 page */
+#error_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+
+    #error_body {
+        p {
+            font-size: 1.4rem;
+        }
+
+        a {
+            font-size: 18px;
+        }
+    }
+
+
+    @media(max-width: 675px) {
+
+        #error_body {
+            .img-box {
+                flex-direction: column-reverse;
+                img {
+                    max-width: 200px;
+                }
+            }
+
+            p {
+                font-size: 1.2rem;
+                text-align: center;
+                margin: 30px 10px;
+            }
+
+            a {
+                font-size: 14px;
+            }
+        }
+        }
+
+}
+
+
+/* Responsive */
+
+@media(max-width: 991px) {
+    .profile-page .title {
+        font-size: 2.5rem;
+    }
+
+    .profile-page h4 {
+        font-size: 1.5rem !important;
+    }
+}
+
+
+
+
+@media(max-width: 767px) {
+    .section-story-overview .image-container:nth-child(2) {
+    margin-top: 420px;
+    margin-left: 0;
+    margin-bottom: 50px;
+    }
+
+    .h3-text {
+        margin-top: 80px;
+    }
+
+
+    #first-img {
+        margin-bottom: 0;
+    }
+
+    #second-img {
+        margin-top: 50px;
+    }
+}
+
+@media(min-width: 576px) and (max-width: 767) {
+    .contact-info-ul {
+        padding-left: 20px;
+    }
+}
+
+
+
+@media(max-width: 600px) {
+    .sluzby-tabs {
+    height: 50px !important;
+    width: 50px !important;
+    } 
+
+    .nav-pills-just-icons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .profile-page .title {
+        font-size: 2rem;
+    }
+
+
+    .viessman-logo {
+        width: 80%;
+        display: flex;
+        margin: auto;
+    }
+}
+
+
+@media(max-width: 575px) {
+    #mapa {
+        max-width: 80%;
+    }
+}
+
+@media(max-width: 450px) {
+    .sidebar-collapse [class*="navbar-expand-"] .navbar-collapse {
+        width: 250px !important;
+    }
+
+    .h3-text {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+@media(max-width: 450px) {
+    .brand .h1-seo {
+        font-size: 2rem !important;
+    }
+
+    .brand .h3-seo {
+        font-size: 1.5rem !important;
+    }
+
+    .brand .n-logo {
+        max-width: 80px !important;
+        margin-bottom: 30px !important;
+    }
+}
+
+@media(max-width: 991px) and (min-width: 767px) {
+    .section-story-overview .fonaty-img-container .image-container:nth-child(2)  {
+        margin-top: 500px;
+    }
+}
+
+@media(max-width: 360px) {
+    .section-story-overview .fonaty-img-container .image-container:nth-child(2)  {
+        margin-top: 500px;
+    }
+}
+
+
+
+/* Change headers imgs for mobile */
+
+@media(min-width: 501px) {
+    #header-img {
+        background-image: url('../imgs/homepage/header.jpg');
+    }
+
+    #voda-img{
+        background-image: url('../imgs/voda/vodo-header.jpg');
+    }
+
+    #fontany-img {
+        background-image: url('../imgs/fontany/fontana-header.jpg');
+    }
+    
+    #upravna-img {
+        background-image: url('../imgs/upravna/upravna-header.jpg');
+    }
+
+    #servis-img{
+        background-image: url('../imgs/servis/servis-header.jpg');
+    }
+
+    #kontakt-img {
+        background-image: url('../imgs/contact.jpg');
+    }   
+}
+
+@media(max-width: 500px) {
+#header-img {
+        background-image: url('../imgs/mobile/homepage/header.jpg');
+    }
+
+    #voda-img{
+        background-image: url('../imgs/mobile/voda/vodo-header.jpg');
+    }
+
+    #fontany-img {
+        background-image: url('../imgs/mobile/fontany/fontana-header.jpg');
+    }
+    
+    #upravna-img {
+        background-image: url('../imgs/mobile/upravna/upravna-header.jpg');
+    }
+
+    #servis-img{
+        background-image: url('../imgs/mobile/servis/servis-header.jpg');
+    }
+
+    #kontakt-img {
+        background-image: url('../imgs/mobile/contact.jpg');
+    } 
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/</loc>
+
+      <lastmod>2019-12-31</lastmod>
+      <changefreq>monthly</changefreq>
+
+   </url>
+
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/kontakt.html</loc>
+      <lastmod>2019-12-31</lastmod>
+   </url>
+
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/sluzby/voda-plyn.html</loc>
+
+      <lastmod>2019-12-31</lastmod>
+   </url>
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/sluzby/upravna-vod.html</loc>
+
+      <lastmod>2019-12-31</lastmod>
+   </url>
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/sluzby/servis-kotlu.html</loc>
+
+      <lastmod>2019-12-31</lastmod>
+   </url>
+   <url>
+
+      <loc>https://www.vodotopo-mikulov.cz/sluzby/fontany-kasny.html</loc>
+
+      <lastmod>2019-12-31</lastmod>
+   </url>
+
+
+</urlset>
